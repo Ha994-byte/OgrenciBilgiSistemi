@@ -1,0 +1,11 @@
+# Bu dosyayı 'application-local.yaml' adıyla kopyalayıp yerel veritabanı şifrenizi ve JWT anahtarınızı giriniz.
+# Bu dosya Git tarafından TAKİP EDİLMEMEKTEDİR (.gitignore içinde eklenmiştir).
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/obs_
+    username: postgres
+    password: veritabani_sifreniz
+
+app:
+  jwt:
+    secret: en_az_256_bit_uzunlugunda_guvenli_bir_jwt_anahtari_giriniz

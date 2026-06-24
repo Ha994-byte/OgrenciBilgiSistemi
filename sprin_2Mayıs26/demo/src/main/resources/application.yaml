@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/obs_proje_db}
+    username: ${SPRING_DATASOURCE_USERNAME:db_kullanici}
+    password: ${SPRING_DATASOURCE_PASSWORD:db_sifre}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  jwt:
+    secret: ${JWT_SECRET_KEY:BuCokGizliVeEnAz256BitOlmasiGerekenBirJwtAnahtari_varsayilan}
