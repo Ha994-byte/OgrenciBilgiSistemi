@@ -1,4 +1,7 @@
+# Havva KELEKLİ tarafından ogrenci bilgi sistemi otomasyonu geliştirilmiştir
+
 # Öğrenci Bilgi Sistemi (OBS) Projesi
+
 
 Bu proje, bir üniversite Öğrenci Bilgi Sistemi (OBS) uygulamasıdır. Proje, modern web teknolojileri kullanılarak geliştirilmiş bir frontend (ön uç) ve güvenli bir REST API sunan Spring Boot backend (arka uç) olmak üzere iki ana kısımdan oluşmaktadır.
 
