@@ -1,5 +1,4 @@
-# Havva KELEKLİ tarafından ogrenci bilgi sistemi otomasyonu geliştirilmiştir
-
+# Havva KELEKLİ tarafından Öğrenci Bilgi Sistemi (OBS) Projesi geliştirilmiştir
 # Öğrenci Bilgi Sistemi (OBS) Projesi
 
 
